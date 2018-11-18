@@ -1,0 +1,4 @@
+C:\Users\aprescott\source\repos\TestApp3\BusinessData\obj\Debug\netcoreapp2.1\Business.Data.csprojAssemblyReference.cache
+C:\Users\aprescott\source\repos\TestApp3\BusinessData\obj\Debug\netcoreapp2.1\Business.Data.csproj.CoreCompileInputs.cache
+C:\Users\aprescott\source\repos\TestApp3\BusinessData\obj\Debug\netcoreapp2.1\Business.Data.AssemblyInfoInputs.cache
+C:\Users\aprescott\source\repos\TestApp3\BusinessData\obj\Debug\netcoreapp2.1\Business.Data.AssemblyInfo.cs
