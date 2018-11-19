@@ -1,0 +1,52 @@
+select distinct 
+PE.Event_Id as Activity_ID,
+PE.Event_Name,
+PE.External_Activity_ID as Interaction_ID,
+PETT.[Type_Name],
+PE.[Status] as Interaction_Status,
+PA.CustomerID as Salesforce_ID,
+PD.AddressLine1 As addressline1,
+PD.City,
+PC.Country_Name,
+PS.[Type_Name] as STAR_Consent,
+pp.Payment_Name as Submitter_Country,
+
+CASE WHEN PA.Isorg = 1 
+		THEN 'HCO'
+		ELSE 'HCP' 
+		END AS [Attendee Type],
+
+ CASE WHEN PX.GLCode IS NULL 
+		THEN '!! GLCode not found !!' 
+		ELSE CAST(PX.GLCode AS NVARCHAR(20)) 
+	END AS GLCode,
+PX.Id As ExpenseID,
+PX.Amount,
+PX.Currency_Id,
+
+CASE WHEN PCM.Name IS NULL 
+        THEN '!! Expense Currency Not Found !!' 
+		ELSE PCM.Name 
+	END AS [Currency],
+
+PE.Event_StartDate,
+PE.Event_EndDate,
+PA.Consent,
+PX.SourceSystem,
+PX.CreatedDate As CreatedOn
+
+
+from PMP_EventInformation as PE
+left join PMP_EventAttendeeMapping as PET on PE.Event_Id=PET.Event_Id
+left join PMP_AttendeeInformation as PA on PET.Attendee_Id =PA.Attendee_Id or PET.OrganizationID=PA.Attendee_Id
+left join PMP_PaymentEntity as PP on PE.Payment_ID=PP.Payment_Id
+left join PMP_Expenses as PX on PE.Event_Id=PX.Eventid
+left join PMP_Address as PD on PA.Attendee_Id=PD.Attendee_Id
+ 
+left join PMP_EventType as PETT on PE.Event_Type_Id=PETT.Eventtype_Id
+left join PMP_Country as PC on PD.Country_Id=PC.Country_Id
+left join PMP_ConsentMaster as PS	on PA.Consent=PS.ConsentType_Id
+left join PMP_AttendeeType as PAT on PA.RecipientType_id=PAT.AttendeeType
+ LEFT JOIN PMP_CurrencyMaster AS PCM WITH (NOLOCK) ON PX.Currency_Id = PCM.Id 
+
+where PE.[Status]='Draft'  and px.Amount is null
