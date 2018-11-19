@@ -55,11 +55,9 @@ namespace Courby.Business.Data
 
         public static System.Data.SqlClient.SqlDataReader GetBusiness(Guid businessId)
         {
-            try
-            {
-                Connection.ExecuteProcedure("GetBusniess",
+             return Connection.ExecuteProcedure("GetBusniess",
                     new Connection.ParamData() { name = "@businessId", value = businessId });
-            }
+
         }
 
         /// <summary>

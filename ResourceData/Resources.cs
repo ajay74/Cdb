@@ -1,6 +1,5 @@
 ﻿using System;
-
-using Data;
+using Courby.Data;
 
 namespace Courby.Resource.Data
 {
@@ -12,7 +11,7 @@ namespace Courby.Resource.Data
         }
         public static void GetResourceValues(string culture, params string[] ResourceKeys)
         {
-            Data.Connection.ExecuteProcedure("resources_GetResourceValues",
+            Connection.ExecuteProcedure("resources_GetResourceValues",
                 new Connection.ParamData() { name = "", value = "" },
                 new Connection.ParamData() { name= "", value=""}
                 );

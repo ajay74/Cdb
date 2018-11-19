@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
-
+using Courby.Data;
+using Courby.Security;
 
 namespace TestConsole
 {
@@ -16,7 +17,7 @@ namespace TestConsole
 
             Console.WriteLine();
 
-            Console.WriteLine(Data.Connection.ConnectionCount);
+            Console.WriteLine(Connection.ConnectionCount);
 
             Console.ReadKey();
                 
@@ -35,9 +36,9 @@ namespace TestConsole
 
         void Job(object input)
         {
-            using (SqlDataReader reader = Data.Connection.ExecuteProcedure("TestConnection",
-                new Data.Connection.ParamData() { name = "@connectionName", value = "Program " + input },
-                new Data.Connection.ParamData() { name = "@testOutputData", value = "TestOutput" }))
+            using (SqlDataReader reader = Connection.ExecuteProcedure("TestConnection",
+                new Connection.ParamData() { name = "@connectionName", value = "Program " + input },
+                new Connection.ParamData() { name = "@testOutputData", value = "TestOutput" }))
             {
                 while (reader.Read())
                 {
@@ -52,8 +53,8 @@ namespace TestConsole
         void Job2(object data)
         {
             data += " This is my text.";
-            string encrypted = Security.Encryption.Encrypt(data.ToString()  , "WpQ+J8dnA3dom9Jka0lex4yTmI08dU0UwYxTWaFlLveTH9zIEJqpUqGBVWGjFU6AZUqL02N/2jaS2xaYyASujg==");
-            Console.WriteLine("{0} -> {1} -> {2}", data, encrypted, Security.Encryption.Decrypt(encrypted, "WpQ+J8dnA3dom9Jka0lex4yTmI08dU0UwYxTWaFlLveTH9zIEJqpUqGBVWGjFU6AZUqL02N/2jaS2xaYyASujg=="));
+            string encrypted = Encryption.Encrypt(data.ToString()  , "WpQ+J8dnA3dom9Jka0lex4yTmI08dU0UwYxTWaFlLveTH9zIEJqpUqGBVWGjFU6AZUqL02N/2jaS2xaYyASujg==");
+            Console.WriteLine("{0} -> {1} -> {2}", data, encrypted, Encryption.Decrypt(encrypted, "WpQ+J8dnA3dom9Jka0lex4yTmI08dU0UwYxTWaFlLveTH9zIEJqpUqGBVWGjFU6AZUqL02N/2jaS2xaYyASujg=="));
         }
     }
 }

@@ -10,3 +10,15 @@ C:\Users\aprescott\source\repos\TestApp3\Exception\obj\Debug\netcoreapp2.1\Excep
 C:\Users\aprescott\source\repos\TestApp3\Exception\obj\Debug\netcoreapp2.1\Exception.csproj.CopyComplete
 C:\Users\aprescott\source\repos\TestApp3\Exception\obj\Debug\netcoreapp2.1\Exception.dll
 C:\Users\aprescott\source\repos\TestApp3\Exception\obj\Debug\netcoreapp2.1\Exception.pdb
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\bin\Debug\netcoreapp2.1\Exception.deps.json
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\bin\Debug\netcoreapp2.1\Exception.dll
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\bin\Debug\netcoreapp2.1\Exception.pdb
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.csprojAssemblyReference.cache
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.csproj.CoreCompileInputs.cache
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.AssemblyInfoInputs.cache
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.AssemblyInfo.cs
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.csproj.CopyComplete
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.dll
+C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.pdb
