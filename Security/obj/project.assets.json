@@ -5395,11 +5395,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Security\\Security.csproj",
+      "projectUniqueName": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj",
       "projectName": "Security",
-      "projectPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Security\\Security.csproj",
+      "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj",
       "packagesPath": "C:\\Users\\aprescott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Security\\obj\\",
+      "outputPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

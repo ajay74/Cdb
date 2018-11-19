@@ -6029,11 +6029,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\TestConsole\\TestConsole.csproj",
+      "projectUniqueName": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\TestConsole\\TestConsole.csproj",
       "projectName": "TestConsole",
-      "projectPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\TestConsole\\TestConsole.csproj",
+      "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\TestConsole\\TestConsole.csproj",
       "packagesPath": "C:\\Users\\aprescott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\TestConsole\\obj\\",
+      "outputPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\TestConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6052,11 +6052,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Data\\Data.csproj"
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj"
             },
-            "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Security\\Security.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Security\\Security.csproj"
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj"
             }
           }
         }

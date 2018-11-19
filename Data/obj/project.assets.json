@@ -1284,11 +1284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\aprescott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Data\\obj\\",
+      "outputPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

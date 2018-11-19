@@ -6047,11 +6047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\BusinessData\\Business.Data.csproj",
+      "projectUniqueName": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj",
       "projectName": "Business.Data",
-      "projectPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\BusinessData\\Business.Data.csproj",
+      "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj",
       "packagesPath": "C:\\Users\\aprescott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\BusinessData\\obj\\",
+      "outputPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6070,14 +6070,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Data\\Data.csproj"
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj"
             },
-            "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Exception\\Exception.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Exception\\Exception.csproj"
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Exception\\Exception.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Exception\\Exception.csproj"
             },
-            "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Security\\Security.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\source\\repos\\TestApp3\\Security\\Security.csproj"
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj"
             }
           }
         }
