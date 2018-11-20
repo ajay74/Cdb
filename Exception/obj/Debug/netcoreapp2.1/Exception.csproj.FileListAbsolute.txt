@@ -22,3 +22,15 @@ C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Except
 C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.csproj.CopyComplete
 C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.dll
 C:\Users\aprescott\Documents\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.pdb
+F:\Projects\GitHub\Cdb\Exception\bin\Debug\netcoreapp2.1\Exception.deps.json
+F:\Projects\GitHub\Cdb\Exception\bin\Debug\netcoreapp2.1\Exception.dll
+F:\Projects\GitHub\Cdb\Exception\bin\Debug\netcoreapp2.1\Exception.pdb
+F:\Projects\GitHub\Cdb\Exception\bin\Debug\netcoreapp2.1\Data.dll
+F:\Projects\GitHub\Cdb\Exception\bin\Debug\netcoreapp2.1\Data.pdb
+F:\Projects\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.csprojAssemblyReference.cache
+F:\Projects\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.csproj.CoreCompileInputs.cache
+F:\Projects\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.AssemblyInfoInputs.cache
+F:\Projects\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.AssemblyInfo.cs
+F:\Projects\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.csproj.CopyComplete
+F:\Projects\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.dll
+F:\Projects\GitHub\Cdb\Exception\obj\Debug\netcoreapp2.1\Exception.pdb

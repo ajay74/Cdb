@@ -10,3 +10,15 @@ C:\Users\aprescott\Documents\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.Assemb
 C:\Users\aprescott\Documents\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.csproj.CopyComplete
 C:\Users\aprescott\Documents\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.dll
 C:\Users\aprescott\Documents\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.pdb
+F:\Projects\GitHub\Cdb\Core\bin\Debug\netcoreapp2.1\Core.deps.json
+F:\Projects\GitHub\Cdb\Core\bin\Debug\netcoreapp2.1\Core.dll
+F:\Projects\GitHub\Cdb\Core\bin\Debug\netcoreapp2.1\Core.pdb
+F:\Projects\GitHub\Cdb\Core\bin\Debug\netcoreapp2.1\Data.dll
+F:\Projects\GitHub\Cdb\Core\bin\Debug\netcoreapp2.1\Data.pdb
+F:\Projects\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.csprojAssemblyReference.cache
+F:\Projects\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.csproj.CoreCompileInputs.cache
+F:\Projects\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfoInputs.cache
+F:\Projects\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfo.cs
+F:\Projects\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.csproj.CopyComplete
+F:\Projects\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.dll
+F:\Projects\GitHub\Cdb\Core\obj\Debug\netcoreapp2.1\Core.pdb

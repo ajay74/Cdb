@@ -1816,7 +1816,7 @@
       ]
     },
     "Microsoft.IdentityModel.JsonWebTokens/5.2.4": {
-      "sha512": "dz0b6+wYxvWeTj5jIBrNM7PqyPMxws5kBjnbacpRySePD6pEBxikGK9qblGgOzWsahlnpKDjoiunlqSFmXFLNQ==",
+      "sha512": "Tk3W9g/TOBBPkL/RU1KgOdsCzXhjOAG1/g75OMueXQev+ImPiDheB68ByRBicqTR0R14BUux9+msbWaAzzwo5Q==",
       "type": "package",
       "path": "microsoft.identitymodel.jsonwebtokens/5.2.4",
       "files": [
@@ -1835,7 +1835,7 @@
       ]
     },
     "Microsoft.IdentityModel.Logging/5.2.4": {
-      "sha512": "ftwC4hEI/LpKxgyXPvwWMSbd/GbhliWDIA90niq8SY8RtFw1hnJJ9f/7YiMQ96c0ibwGT2WEbS4IzvVFmhaiwA==",
+      "sha512": "RDA2J7T1xCcxWx/WBlgFory5DR70tLofODL/tJzWU2JvYmG/m2Az7sy3RFYZs8RE6aAG+i25h8ebb5Z8SDTkww==",
       "type": "package",
       "path": "microsoft.identitymodel.logging/5.2.4",
       "files": [
@@ -1854,7 +1854,7 @@
       ]
     },
     "Microsoft.IdentityModel.Tokens/5.2.4": {
-      "sha512": "rM/youDq83z+n1M4EojYLt++yZ4eOgs0vbkpZTufi+xNS0PS78SIyYve3KJq2++p9BLDFSx7zRr6/qsvI+gEjw==",
+      "sha512": "Ui9gfQLq5FHmnJK0teAH3vkpsy1sU6PFN2c0RbpgHW34+NPISQ5FQAdik4JyT/IvQXI8ZmQU+g94NErwdKYZZg==",
       "type": "package",
       "path": "microsoft.identitymodel.tokens/5.2.4",
       "files": [
@@ -2177,10 +2177,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
+      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -2375,10 +2376,12 @@
       ]
     },
     "Newtonsoft.Json/10.0.1": {
-      "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
+      "sha512": "MOUhQfeI43upq9QiEv+7YYTDQPtEZEj9xB50MgplO1XF/aumP0f+TCYIHpZEmfsiahJJaXt/gdRFYLFEoF2VyQ==",
       "type": "package",
       "path": "newtonsoft.json/10.0.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -2985,7 +2988,7 @@
       ]
     },
     "System.Configuration.ConfigurationManager/4.5.0": {
-      "sha512": "NIY8VUJuSNeXPrV5wjQBKKMcd/vctzEGzQuY15zt3/j7Vd4PXfk/QVIOBlqU1/ONRRUu0dsdk5uUTLSSNY+now==",
+      "sha512": "+2SYYKwbN0n+9SrBanflZdaVleFkytEfTNzOu+f3SK0vROMMrorpw1UJyHJQ1ZooughRxPmLj8Fh5N2tSe7sdA==",
       "type": "package",
       "path": "system.configuration.configurationmanager/4.5.0",
       "files": [
@@ -3005,10 +3008,11 @@
       ]
     },
     "System.Data.SqlClient/4.5.1": {
-      "sha512": "qXTvTFkBds7bnN+ntBMHGvmH3pCAkfT4TE1z2Xvfqo4wKMQC77O4aXsYCc7dzCESC+/Gom6l0GLuebpFx7MDvg==",
+      "sha512": "cTPUCClr34EGBnyazUeciMD6sNm9aiE/li3uGvJ7z5dGup9QxKwysUeKXIrCO0E5KtQQAzGORFEYmowyEpcL2A==",
       "type": "package",
       "path": "system.data.sqlclient/4.5.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -3497,7 +3501,7 @@
       ]
     },
     "System.IdentityModel.Tokens.Jwt/5.2.4": {
-      "sha512": "pZ9xqpsL5yT5Yl+rBj9iHm2K++gKEqsQ+1vLQU9aFKDIc9ELZsaxApVqkujH62TG0oFLt8gFPH12n/zjaVWgYA==",
+      "sha512": "Vpj5gG29aSFDbfGd6s5G5fAt84GBATkQX26r94KnOoelfSBHUsbIVD676qhcGeB2/Q28hDhxE5gaKVYFP790zQ==",
       "type": "package",
       "path": "system.identitymodel.tokens.jwt/5.2.4",
       "files": [
@@ -5149,7 +5153,7 @@
       ]
     },
     "System.Security.Cryptography.ProtectedData/4.5.0": {
-      "sha512": "wZGwRoLGTuEQBOYXlZmEK41OfmO+vYWbLk7q5ePoFqs6vOKP2kUsOeviEjQoR6MbW9udlDjx9iWhcWOTzSj05w==",
+      "sha512": "s/MFK8BvgtejZj5a8qAPDXEGBtWkpFX98qwQP/wqVa9CgIC7LrKHxDFdlN5x6afGAb0ZVBVGIZlCdBLnO2QjZw==",
       "type": "package",
       "path": "system.security.cryptography.protecteddata/4.5.0",
       "files": [
@@ -6041,23 +6045,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aprescott\\.nuget\\packages\\": {},
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj",
+      "projectUniqueName": "F:\\Projects\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj",
       "projectName": "Business.Data",
-      "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj",
-      "packagesPath": "C:\\Users\\aprescott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\obj\\",
+      "projectPath": "F:\\Projects\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\GitHub\\Cdb\\BusinessData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aprescott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6070,14 +6074,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj"
+            "F:\\Projects\\GitHub\\Cdb\\Data\\Data.csproj": {
+              "projectPath": "F:\\Projects\\GitHub\\Cdb\\Data\\Data.csproj"
             },
-            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Exception\\Exception.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Exception\\Exception.csproj"
+            "F:\\Projects\\GitHub\\Cdb\\Exception\\Exception.csproj": {
+              "projectPath": "F:\\Projects\\GitHub\\Cdb\\Exception\\Exception.csproj"
             },
-            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj"
+            "F:\\Projects\\GitHub\\Cdb\\Security\\Security.csproj": {
+              "projectPath": "F:\\Projects\\GitHub\\Cdb\\Security\\Security.csproj"
             }
           }
         }
