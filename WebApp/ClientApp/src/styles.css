@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+
+body {
+  background-image: url('assets/Img/tennis.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+/* Site */
+#HeaderTennis {
+  content: url('assets/Img/HeaderTennis.png');
+}
+
+#HeaderSquash {
+  content: url('assets/Img/HeaderSquash.png');
+}
+#HeaderGolf {
+  content: url('assets/Img/HeaderGolf.png');
+}
+.HeaderFootball {
+  content: url('assets/Img/HeaderFootball.png');
+}
+.logo {
+  content: url('assets/Img/CourbyTextLogo.png');
+  top: -58px;
+  position: relative;
+}
+
+/* Bootstrap */
+.container-fluid {
+  overflow-y: auto;
+}
+.navbar-brand {
+  font-family: 'Play';
+  font-size: 40px !important;
+  font-weight: bold;
+  color: #428AC9 !important;
+}
