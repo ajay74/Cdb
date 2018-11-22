@@ -12,6 +12,7 @@ namespace Courby.Business.Data
 {
     public static class Business
     {
+        // These specify the encryption keys used.
         static readonly string BUSINESSKEY = ConfigurationManager.AppSettings["BUSINESSKEY"].ToString();
         static readonly string USERSKEY = ConfigurationManager.AppSettings["USERKEY"].ToString();
 
@@ -53,6 +54,12 @@ namespace Courby.Business.Data
             return retValues;
         }
 
+
+        /// <summary>
+        /// Get business data.
+        /// </summary>
+        /// <param name="businessId">ID To the business</param>
+        /// <returns></returns>
         public static System.Data.SqlClient.SqlDataReader GetBusiness(Guid businessId)
         {
              return Connection.ExecuteProcedure("GetBusniess",

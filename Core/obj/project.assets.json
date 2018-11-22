@@ -1303,7 +1303,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Core\\Core.csproj",
-      "projectName": "Core",
+      "projectName": "Courby.Core",
       "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\aprescott\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Core\\obj\\",
