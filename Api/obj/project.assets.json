@@ -4660,7 +4660,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Data/1.0.0": {
+      "Courby.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
@@ -4668,23 +4668,23 @@
           "System.Data.SqlClient": "4.5.1"
         },
         "compile": {
-          "bin/placeholder/Data.dll": {}
+          "bin/placeholder/Courby.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Data.dll": {}
+          "bin/placeholder/Courby.Data.dll": {}
         }
       },
-      "Security/1.0.0": {
+      "Courby.Security/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "System.IdentityModel.Tokens.Jwt": "5.2.4"
         },
         "compile": {
-          "bin/placeholder/Security.dll": {}
+          "bin/placeholder/Courby.Security.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Security.dll": {}
+          "bin/placeholder/Courby.Security.dll": {}
         }
       }
     }
@@ -12371,12 +12371,12 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Data/1.0.0": {
+    "Courby.Data/1.0.0": {
       "type": "project",
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
     },
-    "Security/1.0.0": {
+    "Courby.Security/1.0.0": {
       "type": "project",
       "path": "../Security/Security.csproj",
       "msbuildProject": "../Security/Security.csproj"
@@ -12384,11 +12384,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Data >= 1.0.0",
+      "Courby.Data >= 1.0.0",
+      "Courby.Security >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
-      "Security >= 1.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
     ]
   },
   "packageFolders": {

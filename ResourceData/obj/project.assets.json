@@ -400,7 +400,7 @@
           }
         }
       },
-      "Data/1.0.0": {
+      "Courby.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
@@ -408,10 +408,10 @@
           "System.Data.SqlClient": "4.5.1"
         },
         "compile": {
-          "bin/placeholder/Data.dll": {}
+          "bin/placeholder/Courby.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Data.dll": {}
+          "bin/placeholder/Courby.Data.dll": {}
         }
       }
     }
@@ -1283,7 +1283,7 @@
         "version.txt"
       ]
     },
-    "Data/1.0.0": {
+    "Courby.Data/1.0.0": {
       "type": "project",
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
@@ -1291,7 +1291,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Data >= 1.0.0",
+      "Courby.Data >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },

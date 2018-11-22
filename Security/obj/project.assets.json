@@ -5396,7 +5396,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj",
-      "projectName": "Security",
+      "projectName": "Courby.Security",
       "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj",
       "packagesPath": "C:\\Users\\aprescott\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\obj\\",

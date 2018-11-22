@@ -32,8 +32,8 @@ namespace Courby.Business.Data
                     new Connection.ParamData() { name = "@BusinessName", value = Security.Encryption.Encrypt(BusinessName, BUSINESSKEY) },
                     new Connection.ParamData() { name = "@emailAddress", value = Security.Encryption.Encrypt(email, USERSKEY) },
                     new Connection.ParamData() { name = "@password", value = Security.Encryption.Encrypt(password, email) },
-                    new Connection.ParamData() { name = "@businessId", value = null, output = true },
-                    new Connection.ParamData() { name = "@userId", value = null, output = true });
+                    new Connection.ParamData() { name = "@businessId", value = Guid.Empty, output = true },
+                    new Connection.ParamData() { name = "@userId", value = Guid.Empty, output = true });
                 
                 for (int i = 0; i < result.Length; i++)
                     if (result[i].ParameterName == "@businessId" || result[i].ParameterName == "@userId")
