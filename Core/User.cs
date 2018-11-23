@@ -49,7 +49,7 @@ namespace Courby.Core.Data
         public static int UpdateUser(Guid userId, string emailAddress, string password,
             string firstName, string lastName, DateTime dateOfBirth) => Connection.ExecuteProcedureNonQuery("UserUpdateDetail",
                 new Connection.ParamData() { name = "@userId", value = userId },
-                new Connection.ParamData() { name = "", value = Encryption.Encrypt(password, emailAddress) },
+                new Connection.ParamData() { name = "@password", value = Encryption.Encrypt(password, emailAddress) },
                 new Connection.ParamData() { name = "@firstName", value = Encryption.Encrypt(firstName,password) },
                 new Connection.ParamData() { name = "@lastName", value = Encryption.Encrypt(lastName,password) },
                 new Connection.ParamData() { name = "@dob", value = dateOfBirth }
@@ -61,5 +61,9 @@ namespace Courby.Core.Data
 
         // Delete User
         // Change user details.
+        public static int ChangeEmailPassword(Guid userId, string newEmail, string oldEmail, string newPassword, string oldPassword)
+        {
+            return -1;
+        }
     }
 }
