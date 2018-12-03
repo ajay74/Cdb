@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v2.1": {
       "ResourceData/1.0.0": {
         "dependencies": {
-          "Data": "1.0.0"
+          "Courby.Data": "1.0.0"
         },
         "runtime": {
           "ResourceData.dll": {}
@@ -181,13 +181,13 @@
           }
         }
       },
-      "Data/1.0.0": {
+      "Courby.Data/1.0.0": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.5.0",
           "System.Data.SqlClient": "4.5.1"
         },
         "runtime": {
-          "Data.dll": {}
+          "Courby.Data.dll": {}
         }
       }
     }
@@ -289,7 +289,7 @@
       "path": "system.text.encoding.codepages/4.5.0",
       "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
     },
-    "Data/1.0.0": {
+    "Courby.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

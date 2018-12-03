@@ -32,5 +32,10 @@ namespace Courby.Security
 
             return token;
         }
+
+        public static void ValidateToken(string token)
+        {
+
+        }
     }
 }

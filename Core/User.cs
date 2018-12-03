@@ -60,6 +60,12 @@ namespace Courby.Core.Data
                 new Connection.ParamData() { name = "@emailAddress", value = emailAddress });
 
         // Delete User
+        // Get User
+        public static DataStream GetUser(string emailAddress)
+        {
+            return Connection.ExecuteProcedureDataSet("UserGetBase", new Connection.ParamData() { name = "@emailAddress", value = Encryption.Encrypt(emailAddress, USERSKEY) });
+        }
+
         // Change user details.
         public static int ChangeEmailPassword(Guid userId, string newEmail, string oldEmail, string newPassword, string oldPassword)
         {

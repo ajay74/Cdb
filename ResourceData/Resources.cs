@@ -1,20 +1,70 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
 using Courby.Data;
 
 namespace Courby.Resource.Data
 {
     public static class Resources
     {
-        public static string GetResourceValue(string culture, string ResourceKey)
+        /// <summary>
+        /// Resources_GetLanguage
+        /// </summary>
+        /// <param name="culture"></param>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public static Dictionary<string, string> GetLanguageResourceValue(string culture, string key)
         {
-            return "";
+            Dictionary<string, string> language = new Dictionary<string, string>();
+
+            language.Add("key", "");
+            language.Add("value", "");
+
+            using (SqlDataReader data = Connection.ExecuteProcedure("Resources_GetLanguage",
+                new Connection.ParamData() { name = "@key", value = key },
+                new Connection.ParamData() { name = "@culture", value = culture }
+            ))
+            {
+                while (data.Read())
+                { // Only 1 row should be returned.
+                    language["key"] = data["key"].ToString();
+                    language["value"] = data["value"].ToString();
+
+                    break;
+                }
+            }
+
+            return language;
         }
-        public static void GetResourceValues(string culture, params string[] ResourceKeys)
+
+        /// <summary>
+        /// Builds a dictionary object of the page of language keys.
+        /// </summary>
+        /// <param name="culture"></param>
+        /// <param name="ResourceKeys"></param>
+        /// <returns></returns>
+        public static Dictionary<string, string> GetLanguageResourceValues(string culture, string pageKey)
         {
-            Connection.ExecuteProcedure("resources_GetResourceValues",
-                new Connection.ParamData() { name = "", value = "" },
-                new Connection.ParamData() { name= "", value=""}
-                );
+            Dictionary<string, string> language = new Dictionary<string, string>();
+
+            language.Add("key", "");
+            language.Add("value", "");
+
+            using (SqlDataReader data = Connection.ExecuteProcedure("Resources_GetPageResources",
+                new Connection.ParamData() { name = "@page", value = pageKey },
+                new Connection.ParamData() { name = "@culture", value = culture }
+            ))
+            {
+                while (data.Read())
+                { // Only multiple rows are returned.
+                    language["key"] = data["key"].ToString();
+                    language["value"] = data["value"].ToString();
+
+                    break;
+                }
+            }
+
+            return language;
         }
     }
 }

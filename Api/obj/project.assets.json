@@ -4660,6 +4660,37 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "Courby.Business.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Courby.Core": "1.0.0",
+          "Courby.Data": "1.0.0",
+          "Courby.Exception": "1.0.0",
+          "Courby.Security": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Courby.Business.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Courby.Business.Data.dll": {}
+        }
+      },
+      "Courby.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Courby.Data": "1.0.0",
+          "Courby.Exception": "1.0.0",
+          "Courby.Security": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Courby.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Courby.Core.dll": {}
+        }
+      },
       "Courby.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -4674,6 +4705,19 @@
           "bin/placeholder/Courby.Data.dll": {}
         }
       },
+      "Courby.Exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Courby.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Courby.Exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Courby.Exception.dll": {}
+        }
+      },
       "Courby.Security/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -4685,6 +4729,19 @@
         },
         "runtime": {
           "bin/placeholder/Courby.Security.dll": {}
+        }
+      },
+      "ResourceData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Courby.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ResourceData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ResourceData.dll": {}
         }
       }
     }
@@ -12371,24 +12428,48 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "Courby.Business.Data/1.0.0": {
+      "type": "project",
+      "path": "../BusinessData/Business.Data.csproj",
+      "msbuildProject": "../BusinessData/Business.Data.csproj"
+    },
+    "Courby.Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "Courby.Data/1.0.0": {
       "type": "project",
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
     },
+    "Courby.Exception/1.0.0": {
+      "type": "project",
+      "path": "../Exception/Exception.csproj",
+      "msbuildProject": "../Exception/Exception.csproj"
+    },
     "Courby.Security/1.0.0": {
       "type": "project",
       "path": "../Security/Security.csproj",
       "msbuildProject": "../Security/Security.csproj"
+    },
+    "ResourceData/1.0.0": {
+      "type": "project",
+      "path": "../ResourceData/ResourceData.csproj",
+      "msbuildProject": "../ResourceData/ResourceData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Courby.Business.Data >= 1.0.0",
+      "Courby.Core >= 1.0.0",
       "Courby.Data >= 1.0.0",
+      "Courby.Exception >= 1.0.0",
       "Courby.Security >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
+      "ResourceData >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12421,8 +12502,20 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj"
+            },
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Core\\Core.csproj"
+            },
             "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj": {
               "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj"
+            },
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Exception\\Exception.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Exception\\Exception.csproj"
+            },
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\ResourceData\\ResourceData.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\ResourceData\\ResourceData.csproj"
             },
             "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj": {
               "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj"

@@ -24,11 +24,15 @@
     ".NETCoreApp,Version=v2.1": {
       "Api/1.0.0": {
         "dependencies": {
-          "Data": "1.0.0",
+          "Courby.Business.Data": "1.0.0",
+          "Courby.Core": "1.0.0",
+          "Courby.Data": "1.0.0",
+          "Courby.Exception": "1.0.0",
+          "Courby.Security": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
-          "Security": "1.0.0"
+          "ResourceData": "1.0.0"
         },
         "runtime": {
           "Api.dll": {}
@@ -728,27 +732,76 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Data/1.0.0": {
+      "Courby.Business.Data/1.0.0": {
+        "dependencies": {
+          "Courby.Core": "1.0.0",
+          "Courby.Data": "1.0.0",
+          "Courby.Exception": "1.0.0",
+          "Courby.Security": "1.0.0"
+        },
+        "runtime": {
+          "Courby.Business.Data.dll": {}
+        },
+        "compile": {
+          "Courby.Business.Data.dll": {}
+        }
+      },
+      "Courby.Core/1.0.0": {
+        "dependencies": {
+          "Courby.Data": "1.0.0",
+          "Courby.Exception": "1.0.0",
+          "Courby.Security": "1.0.0"
+        },
+        "runtime": {
+          "Courby.Core.dll": {}
+        },
+        "compile": {
+          "Courby.Core.dll": {}
+        }
+      },
+      "Courby.Data/1.0.0": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.5.0",
           "System.Data.SqlClient": "4.5.1"
         },
         "runtime": {
-          "Data.dll": {}
+          "Courby.Data.dll": {}
         },
         "compile": {
-          "Data.dll": {}
+          "Courby.Data.dll": {}
         }
       },
-      "Security/1.0.0": {
+      "Courby.Exception/1.0.0": {
+        "dependencies": {
+          "Courby.Data": "1.0.0"
+        },
+        "runtime": {
+          "Courby.Exception.dll": {}
+        },
+        "compile": {
+          "Courby.Exception.dll": {}
+        }
+      },
+      "Courby.Security/1.0.0": {
         "dependencies": {
           "System.IdentityModel.Tokens.Jwt": "5.2.4"
         },
         "runtime": {
-          "Security.dll": {}
+          "Courby.Security.dll": {}
         },
         "compile": {
-          "Security.dll": {}
+          "Courby.Security.dll": {}
+        }
+      },
+      "ResourceData/1.0.0": {
+        "dependencies": {
+          "Courby.Data": "1.0.0"
+        },
+        "runtime": {
+          "ResourceData.dll": {}
+        },
+        "compile": {
+          "ResourceData.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3821,12 +3874,32 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Data/1.0.0": {
+    "Courby.Business.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Security/1.0.0": {
+    "Courby.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Courby.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Courby.Exception/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Courby.Security/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ResourceData/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
