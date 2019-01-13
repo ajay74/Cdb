@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Courby.Core.Mail;
 
 using Courby.Core.Data;
 using Courby.Security;
@@ -22,6 +23,8 @@ namespace Api.Controllers
             if (newId != Guid.Empty)
             {
                 // Send validation email. 
+                //Courby.Core.Mail.Mailer.CreateMessage("VALIDATE_EMAIL","en-en", new Dictionary<string, string>() { })
+
             }
         }
 

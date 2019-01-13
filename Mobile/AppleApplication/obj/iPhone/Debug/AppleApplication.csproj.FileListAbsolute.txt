@@ -1,0 +1,12 @@
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\bin\iPhone\Debug\AppleApplication.exe
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\bin\iPhone\Debug\AppleApplication.pdb
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\obj\iPhone\Debug\optimized\
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\obj\iPhone\Debug\AppleApplication.csprojAssemblyReference.cache
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\obj\iPhone\Debug\AppleApplication.csproj.CoreCompileInputs.cache
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\obj\iPhone\Debug\AppleApplication.exe
+C:\Users\aprescott\Documents\GitHub\Cdb\Mobile\AppleApplication\obj\iPhone\Debug\AppleApplication.pdb

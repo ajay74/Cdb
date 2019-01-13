@@ -20,3 +20,5 @@ C:\Users\aprescott\Documents\GitHub\Cdb\BusinessData\bin\Debug\netcoreapp2.1\Cou
 C:\Users\aprescott\Documents\GitHub\Cdb\BusinessData\bin\Debug\netcoreapp2.1\Courby.Security.pdb
 C:\Users\aprescott\Documents\GitHub\Cdb\BusinessData\obj\Debug\netcoreapp2.1\Courby.Business.Data.dll
 C:\Users\aprescott\Documents\GitHub\Cdb\BusinessData\obj\Debug\netcoreapp2.1\Courby.Business.Data.pdb
+C:\Users\aprescott\Documents\GitHub\Cdb\BusinessData\bin\Debug\netcoreapp2.1\ResourceData.dll
+C:\Users\aprescott\Documents\GitHub\Cdb\BusinessData\bin\Debug\netcoreapp2.1\ResourceData.pdb
