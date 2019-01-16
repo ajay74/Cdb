@@ -7,7 +7,6 @@ C:\Users\aprescott\source\repos\TestApp3\Security\obj\Debug\netcoreapp2.1\Securi
 C:\Users\aprescott\source\repos\TestApp3\Security\bin\Debug\netcoreapp2.1\Security.pdb
 C:\Users\aprescott\source\repos\TestApp3\Security\obj\Debug\netcoreapp2.1\Security.dll
 C:\Users\aprescott\source\repos\TestApp3\Security\obj\Debug\netcoreapp2.1\Security.pdb
-C:\Users\aprescott\Documents\GitHub\Cdb\Security\obj\Debug\netcoreapp2.1\Security.csprojAssemblyReference.cache
 C:\Users\aprescott\Documents\GitHub\Cdb\Security\obj\Debug\netcoreapp2.1\Security.csproj.CoreCompileInputs.cache
 C:\Users\aprescott\Documents\GitHub\Cdb\Security\obj\Debug\netcoreapp2.1\Security.AssemblyInfoInputs.cache
 C:\Users\aprescott\Documents\GitHub\Cdb\Security\obj\Debug\netcoreapp2.1\Security.AssemblyInfo.cs
