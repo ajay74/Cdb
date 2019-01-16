@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Courby.Exception</AssemblyName>
+    <RootNamespace>Courby.Exception</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

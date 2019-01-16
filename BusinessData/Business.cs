@@ -12,6 +12,7 @@ namespace Courby.Business.Data
 {
     public static class Business
     {
+        // These specify the encryption keys used.
         static readonly string BUSINESSKEY = ConfigurationManager.AppSettings["BUSINESSKEY"].ToString();
         static readonly string USERSKEY = ConfigurationManager.AppSettings["USERKEY"].ToString();
 
@@ -31,8 +32,8 @@ namespace Courby.Business.Data
                     new Connection.ParamData() { name = "@BusinessName", value = Security.Encryption.Encrypt(BusinessName, BUSINESSKEY) },
                     new Connection.ParamData() { name = "@emailAddress", value = Security.Encryption.Encrypt(email, USERSKEY) },
                     new Connection.ParamData() { name = "@password", value = Security.Encryption.Encrypt(password, email) },
-                    new Connection.ParamData() { name = "@businessId", value = null, output = true },
-                    new Connection.ParamData() { name = "@userId", value = null, output = true });
+                    new Connection.ParamData() { name = "@businessId", value = Guid.Empty, output = true },
+                    new Connection.ParamData() { name = "@userId", value = Guid.Empty, output = true });
                 
                 for (int i = 0; i < result.Length; i++)
                     if (result[i].ParameterName == "@businessId" || result[i].ParameterName == "@userId")
@@ -53,6 +54,12 @@ namespace Courby.Business.Data
             return retValues;
         }
 
+
+        /// <summary>
+        /// Get business data.
+        /// </summary>
+        /// <param name="businessId">ID To the business</param>
+        /// <returns></returns>
         public static System.Data.SqlClient.SqlDataReader GetBusiness(Guid businessId)
         {
              return Connection.ExecuteProcedure("GetBusniess",

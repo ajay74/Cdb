@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v2.1": {
       "TestConsole/1.0.0": {
         "dependencies": {
-          "Data": "1.0.0",
-          "Security": "1.0.0",
+          "Courby.Data": "1.0.0",
+          "Courby.Security": "1.0.0",
           "System.Data.SqlClient": "4.5.1"
         },
         "runtime": {
@@ -1062,21 +1062,21 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Data/1.0.0": {
+      "Courby.Data/1.0.0": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.5.0",
           "System.Data.SqlClient": "4.5.1"
         },
         "runtime": {
-          "Data.dll": {}
+          "Courby.Data.dll": {}
         }
       },
-      "Security/1.0.0": {
+      "Courby.Security/1.0.0": {
         "dependencies": {
           "System.IdentityModel.Tokens.Jwt": "5.2.4"
         },
         "runtime": {
-          "Security.dll": {}
+          "Courby.Security.dll": {}
         }
       }
     }
@@ -1097,21 +1097,21 @@
     "Microsoft.IdentityModel.JsonWebTokens/5.2.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Tk3W9g/TOBBPkL/RU1KgOdsCzXhjOAG1/g75OMueXQev+ImPiDheB68ByRBicqTR0R14BUux9+msbWaAzzwo5Q==",
+      "sha512": "sha512-494JCwsMINjjmrl/kOTdOtcsm3ESh8W16zg0b3nNJBgnpOu9eDgs8KDOtP3kRjSQtHcLrTsBI1XJ5FbhKm1TrA==",
       "path": "microsoft.identitymodel.jsonwebtokens/5.2.4",
       "hashPath": "microsoft.identitymodel.jsonwebtokens.5.2.4.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Logging/5.2.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RDA2J7T1xCcxWx/WBlgFory5DR70tLofODL/tJzWU2JvYmG/m2Az7sy3RFYZs8RE6aAG+i25h8ebb5Z8SDTkww==",
+      "sha512": "sha512-12iZoCdMrwcQ8yOvg0AlG9oz6dIqvCczWsrHdALICsMWcBNFCAEyA0LELUYD0FZ7FVGvh4Z/KrPMkBVqVnIg2A==",
       "path": "microsoft.identitymodel.logging/5.2.4",
       "hashPath": "microsoft.identitymodel.logging.5.2.4.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Tokens/5.2.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ui9gfQLq5FHmnJK0teAH3vkpsy1sU6PFN2c0RbpgHW34+NPISQ5FQAdik4JyT/IvQXI8ZmQU+g94NErwdKYZZg==",
+      "sha512": "sha512-hVkEnZTnU23IQv5hsbBmlJgmr/NdDg1yU6QPSoVirbfK1z+sDSItzDpZuKDcLjE81v174BlChdezKfVOzpr2YA==",
       "path": "microsoft.identitymodel.tokens/5.2.4",
       "hashPath": "microsoft.identitymodel.tokens.5.2.4.nupkg.sha512"
     },
@@ -1314,7 +1314,7 @@
     "System.Configuration.ConfigurationManager/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+2SYYKwbN0n+9SrBanflZdaVleFkytEfTNzOu+f3SK0vROMMrorpw1UJyHJQ1ZooughRxPmLj8Fh5N2tSe7sdA==",
+      "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
       "path": "system.configuration.configurationmanager/4.5.0",
       "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
     },
@@ -1377,7 +1377,7 @@
     "System.IdentityModel.Tokens.Jwt/5.2.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Vpj5gG29aSFDbfGd6s5G5fAt84GBATkQX26r94KnOoelfSBHUsbIVD676qhcGeB2/Q28hDhxE5gaKVYFP790zQ==",
+      "sha512": "sha512-IVIGJO1X8THAUfOIb3/KhPWALPOtXzpnP+36JBBM3BrQdnsE7kbi5m4Hpbax9JQVSdA5KG9cFeFoAtFOWfn90A==",
       "path": "system.identitymodel.tokens.jwt/5.2.4",
       "hashPath": "system.identitymodel.tokens.jwt.5.2.4.nupkg.sha512"
     },
@@ -1615,7 +1615,7 @@
     "System.Security.Cryptography.ProtectedData/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-s/MFK8BvgtejZj5a8qAPDXEGBtWkpFX98qwQP/wqVa9CgIC7LrKHxDFdlN5x6afGAb0ZVBVGIZlCdBLnO2QjZw==",
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
       "path": "system.security.cryptography.protecteddata/4.5.0",
       "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
     },
@@ -1724,12 +1724,12 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Data/1.0.0": {
+    "Courby.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Security/1.0.0": {
+    "Courby.Security/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

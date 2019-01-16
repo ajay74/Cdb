@@ -14,7 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BusinessData\Business.Data.csproj" />
+    <ProjectReference Include="..\Core\Core.csproj" />
     <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\Exception\Exception.csproj" />
+    <ProjectReference Include="..\ResourceData\ResourceData.csproj" />
     <ProjectReference Include="..\Security\Security.csproj" />
   </ItemGroup>
 

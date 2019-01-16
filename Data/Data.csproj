@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Courby.Data</AssemblyName>
+    <RootNamespace>Courby.Data</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

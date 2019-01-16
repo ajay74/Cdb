@@ -1715,7 +1715,23 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Data/1.0.0": {
+      "Courby.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Courby.Data": "1.0.0",
+          "Courby.Exception": "1.0.0",
+          "Courby.Security": "1.0.0",
+          "ResourceData": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Courby.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Courby.Core.dll": {}
+        }
+      },
+      "Courby.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
@@ -1723,36 +1739,49 @@
           "System.Data.SqlClient": "4.5.1"
         },
         "compile": {
-          "bin/placeholder/Data.dll": {}
+          "bin/placeholder/Courby.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Data.dll": {}
+          "bin/placeholder/Courby.Data.dll": {}
         }
       },
-      "Exception/1.0.0": {
+      "Courby.Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Data": "1.0.0"
+          "Courby.Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Exception.dll": {}
+          "bin/placeholder/Courby.Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Exception.dll": {}
+          "bin/placeholder/Courby.Exception.dll": {}
         }
       },
-      "Security/1.0.0": {
+      "Courby.Security/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "System.IdentityModel.Tokens.Jwt": "5.2.4"
         },
         "compile": {
-          "bin/placeholder/Security.dll": {}
+          "bin/placeholder/Courby.Security.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Security.dll": {}
+          "bin/placeholder/Courby.Security.dll": {}
+        }
+      },
+      "ResourceData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Courby.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ResourceData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ResourceData.dll": {}
         }
       }
     }
@@ -1816,10 +1845,11 @@
       ]
     },
     "Microsoft.IdentityModel.JsonWebTokens/5.2.4": {
-      "sha512": "Tk3W9g/TOBBPkL/RU1KgOdsCzXhjOAG1/g75OMueXQev+ImPiDheB68ByRBicqTR0R14BUux9+msbWaAzzwo5Q==",
+      "sha512": "494JCwsMINjjmrl/kOTdOtcsm3ESh8W16zg0b3nNJBgnpOu9eDgs8KDOtP3kRjSQtHcLrTsBI1XJ5FbhKm1TrA==",
       "type": "package",
       "path": "microsoft.identitymodel.jsonwebtokens/5.2.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/net45/Microsoft.IdentityModel.JsonWebTokens.pdb",
@@ -1835,10 +1865,11 @@
       ]
     },
     "Microsoft.IdentityModel.Logging/5.2.4": {
-      "sha512": "RDA2J7T1xCcxWx/WBlgFory5DR70tLofODL/tJzWU2JvYmG/m2Az7sy3RFYZs8RE6aAG+i25h8ebb5Z8SDTkww==",
+      "sha512": "12iZoCdMrwcQ8yOvg0AlG9oz6dIqvCczWsrHdALICsMWcBNFCAEyA0LELUYD0FZ7FVGvh4Z/KrPMkBVqVnIg2A==",
       "type": "package",
       "path": "microsoft.identitymodel.logging/5.2.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Logging.dll",
         "lib/net45/Microsoft.IdentityModel.Logging.pdb",
@@ -1854,10 +1885,11 @@
       ]
     },
     "Microsoft.IdentityModel.Tokens/5.2.4": {
-      "sha512": "Ui9gfQLq5FHmnJK0teAH3vkpsy1sU6PFN2c0RbpgHW34+NPISQ5FQAdik4JyT/IvQXI8ZmQU+g94NErwdKYZZg==",
+      "sha512": "hVkEnZTnU23IQv5hsbBmlJgmr/NdDg1yU6QPSoVirbfK1z+sDSItzDpZuKDcLjE81v174BlChdezKfVOzpr2YA==",
       "type": "package",
       "path": "microsoft.identitymodel.tokens/5.2.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Tokens.dll",
         "lib/net45/Microsoft.IdentityModel.Tokens.pdb",
@@ -2379,6 +2411,7 @@
       "sha512": "MOUhQfeI43upq9QiEv+7YYTDQPtEZEj9xB50MgplO1XF/aumP0f+TCYIHpZEmfsiahJJaXt/gdRFYLFEoF2VyQ==",
       "type": "package",
       "path": "newtonsoft.json/10.0.1",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2988,10 +3021,11 @@
       ]
     },
     "System.Configuration.ConfigurationManager/4.5.0": {
-      "sha512": "+2SYYKwbN0n+9SrBanflZdaVleFkytEfTNzOu+f3SK0vROMMrorpw1UJyHJQ1ZooughRxPmLj8Fh5N2tSe7sdA==",
+      "sha512": "UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
       "type": "package",
       "path": "system.configuration.configurationmanager/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -3501,10 +3535,11 @@
       ]
     },
     "System.IdentityModel.Tokens.Jwt/5.2.4": {
-      "sha512": "Vpj5gG29aSFDbfGd6s5G5fAt84GBATkQX26r94KnOoelfSBHUsbIVD676qhcGeB2/Q28hDhxE5gaKVYFP790zQ==",
+      "sha512": "IVIGJO1X8THAUfOIb3/KhPWALPOtXzpnP+36JBBM3BrQdnsE7kbi5m4Hpbax9JQVSdA5KG9cFeFoAtFOWfn90A==",
       "type": "package",
       "path": "system.identitymodel.tokens.jwt/5.2.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net45/System.IdentityModel.Tokens.Jwt.pdb",
@@ -5153,10 +5188,11 @@
       ]
     },
     "System.Security.Cryptography.ProtectedData/4.5.0": {
-      "sha512": "s/MFK8BvgtejZj5a8qAPDXEGBtWkpFX98qwQP/wqVa9CgIC7LrKHxDFdlN5x6afGAb0ZVBVGIZlCdBLnO2QjZw==",
+      "sha512": "wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
       "type": "package",
       "path": "system.security.cryptography.protecteddata/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -6020,48 +6056,59 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Data/1.0.0": {
+    "Courby.Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
+    "Courby.Data/1.0.0": {
       "type": "project",
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
     },
-    "Exception/1.0.0": {
+    "Courby.Exception/1.0.0": {
       "type": "project",
       "path": "../Exception/Exception.csproj",
       "msbuildProject": "../Exception/Exception.csproj"
     },
-    "Security/1.0.0": {
+    "Courby.Security/1.0.0": {
       "type": "project",
       "path": "../Security/Security.csproj",
       "msbuildProject": "../Security/Security.csproj"
+    },
+    "ResourceData/1.0.0": {
+      "type": "project",
+      "path": "../ResourceData/ResourceData.csproj",
+      "msbuildProject": "../ResourceData/ResourceData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Data >= 1.0.0",
-      "Exception >= 1.0.0",
-      "Microsoft.NETCore.App >= 2.1.0",
-      "Security >= 1.0.0"
+      "Courby.Core >= 1.0.0",
+      "Courby.Data >= 1.0.0",
+      "Courby.Exception >= 1.0.0",
+      "Courby.Security >= 1.0.0",
+      "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Users\\aprescott\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projects\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj",
-      "projectName": "Business.Data",
-      "projectPath": "F:\\Projects\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "F:\\Projects\\GitHub\\Cdb\\BusinessData\\obj\\",
+      "projectUniqueName": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj",
+      "projectName": "Courby.Business.Data",
+      "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj",
+      "packagesPath": "C:\\Users\\aprescott\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aprescott\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6074,14 +6121,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\Projects\\GitHub\\Cdb\\Data\\Data.csproj": {
-              "projectPath": "F:\\Projects\\GitHub\\Cdb\\Data\\Data.csproj"
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Core\\Core.csproj"
             },
-            "F:\\Projects\\GitHub\\Cdb\\Exception\\Exception.csproj": {
-              "projectPath": "F:\\Projects\\GitHub\\Cdb\\Exception\\Exception.csproj"
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj"
             },
-            "F:\\Projects\\GitHub\\Cdb\\Security\\Security.csproj": {
-              "projectPath": "F:\\Projects\\GitHub\\Cdb\\Security\\Security.csproj"
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Exception\\Exception.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Exception\\Exception.csproj"
+            },
+            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj": {
+              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj"
             }
           }
         }
