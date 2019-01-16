@@ -4,3 +4,4 @@ TestApp3/
 .vs/Cdb/v15/Server/sqlite3/storage.ide-shm
 *.dll
 *.pdb
+*.cache
