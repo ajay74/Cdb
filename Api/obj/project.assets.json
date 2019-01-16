@@ -4749,7 +4749,7 @@
   },
   "libraries": {
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
-      "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
+      "sha512": "AIgEc1up4pvH8kXy+eG1x4Qfqd6piAq3yk11pveCQXWNkkYoiKdflSmcJZuWcerdMcAaoF0xC/mWGoTW4vF4Dg==",
       "type": "package",
       "path": "microsoft.aspnet.webapi.client/5.2.6",
       "files": [
@@ -5582,7 +5582,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.1": {
-      "sha512": "BOK5fckW9v7xWjpEI6bPGwkjw10OPVASZcAa8HoWJo/0Mmg4Azddj92v8noU+YgvD/6zNZ9o/RiRXXKxk5rYwQ==",
+      "sha512": "1XHObHLx6A0/57ZmLG9gfKMO/Z/gQjRXPFWQDMlPZGYwcfgufvSdmI2+RYvR5DGkbba9HIHC35ClNQ2yVNIohw==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.1.1",
       "hasTools": true,
@@ -5967,7 +5967,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
-      "sha512": "EJWaxi2bI47iEZen/nZkJEDZCrP9Oj3PJtMwBv34Z0ZvvdSkpgsdqlHSud8d5vC53LnCXLfBLewfqHcILDVSDw==",
+      "sha512": "4JcQJNDSyGXtz9ccBzSBmcPmKg7GiL4LYvtv+YG8C9waNP/xhwuvIycSQOF4a0V+J73JwUopA503O7vb8p5ZUQ==",
       "type": "package",
       "path": "microsoft.codeanalysis.csharp.workspaces/2.8.0",
       "files": [
@@ -5995,7 +5995,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Workspaces.Common/2.8.0": {
-      "sha512": "tJlJ99SD8bHBAXShOG/pXQ1K118cnsF01obEf9aAtdgLbw3yEPahZ7qvWeGMjrheUhvOsSkv/wTKYg9euKa8MQ==",
+      "sha512": "AqCiNju6UZy9Sd8HKzxGbpbZf+P8gWpojfvs9hIRfwstqFMZ6OJXf69EUvqJ5C4rWrcf08F7G8WII74KBEFImQ==",
       "type": "package",
       "path": "microsoft.codeanalysis.workspaces.common/2.8.0",
       "files": [
@@ -7654,10 +7654,12 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -7697,7 +7699,7 @@
       ]
     },
     "NuGet.Frameworks/4.7.0": {
-      "sha512": "qbXaB76XYUVLocLBs8Z9TS/ERGK2wm797feO+0JEPFvT7o7MRadOR77mqaSD4J1k8G+DlZQyq+MlkCuxrkr3ag==",
+      "sha512": "KuqDbPzjOWbUM6gPMbkvdhlQ10roQAoMM7mNZ8hcY/fH+9J4Zc+qT8dLWoNzGyr0OrxQVdZdbSjy/fxwoICgGg==",
       "type": "package",
       "path": "nuget.frameworks/4.7.0",
       "files": [
@@ -12522,23 +12524,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aprescott\\.nuget\\packages\\": {},
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Api\\Api.csproj",
+      "projectUniqueName": "F:\\Projects\\GitHub\\Cdb\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Api\\Api.csproj",
-      "packagesPath": "C:\\Users\\aprescott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Api\\obj\\",
+      "projectPath": "F:\\Projects\\GitHub\\Cdb\\Api\\Api.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\GitHub\\Cdb\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aprescott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12551,23 +12553,23 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj"
+            "F:\\Projects\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj": {
+              "projectPath": "F:\\Projects\\GitHub\\Cdb\\BusinessData\\Business.Data.csproj"
             },
-            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Core\\Core.csproj"
+            "F:\\Projects\\GitHub\\Cdb\\Core\\Core.csproj": {
+              "projectPath": "F:\\Projects\\GitHub\\Cdb\\Core\\Core.csproj"
             },
-            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Data\\Data.csproj"
+            "F:\\Projects\\GitHub\\Cdb\\Data\\Data.csproj": {
+              "projectPath": "F:\\Projects\\GitHub\\Cdb\\Data\\Data.csproj"
             },
-            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Exception\\Exception.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Exception\\Exception.csproj"
+            "F:\\Projects\\GitHub\\Cdb\\Exception\\Exception.csproj": {
+              "projectPath": "F:\\Projects\\GitHub\\Cdb\\Exception\\Exception.csproj"
             },
-            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\ResourceData\\ResourceData.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\ResourceData\\ResourceData.csproj"
+            "F:\\Projects\\GitHub\\Cdb\\ResourceData\\ResourceData.csproj": {
+              "projectPath": "F:\\Projects\\GitHub\\Cdb\\ResourceData\\ResourceData.csproj"
             },
-            "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj": {
-              "projectPath": "C:\\Users\\aprescott\\Documents\\GitHub\\Cdb\\Security\\Security.csproj"
+            "F:\\Projects\\GitHub\\Cdb\\Security\\Security.csproj": {
+              "projectPath": "F:\\Projects\\GitHub\\Cdb\\Security\\Security.csproj"
             }
           }
         }

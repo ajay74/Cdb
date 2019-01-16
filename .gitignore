@@ -1,4 +1,6 @@
 *.dll
 TestApp3/
+.vs/Cdb/v15/.suo
+.vs/Cdb/v15/Server/sqlite3/storage.ide-shm
+*.dll
 *.pdb
-.suo

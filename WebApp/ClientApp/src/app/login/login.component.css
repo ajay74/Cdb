@@ -1,0 +1,171 @@
+.social-login {
+  padding: 0;
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 24px;
+  font-weight: 300;
+  cursor: text;
+  outline: 0;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  opacity: 1;
+  position: relative;
+}
+
+  .social-login:hover {
+    opacity: 0.9;
+  }
+
+  .social-login.fb {
+    background-color: #3b5998;
+  }
+
+  .social-login.ggl {
+    background-color: #4285f4;
+  }
+
+.svg-28 {
+  height: 28px;
+  width: 28px;
+}
+
+  .svg-28 svg {
+    vertical-align: top;
+  }
+
+.login-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.login-btn-container {
+  max-width: 350px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+
+  .login-btn-container h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+.or-btn {
+  text-align: center;
+  margin: 0 auto 40px;
+  height: 11px;
+  border-bottom: 1px solid;
+  border-color: #A0A09F;
+}
+
+  .or-btn span {
+    font-size: 16px;
+    color: #2F2E2E;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 13px;
+  }
+
+.btn-email {
+  margin: auto auto 10px;
+  color: #2F2E2E;
+  font-size: 16px;
+  text-decoration: none !important;
+  height: 48px;
+  width: 100%;
+  border: 1px solid rgba(160, 160, 159, 1);
+  font-weight: 300;
+  cursor: pointer;
+  border-radius: 1px;
+  transition: border-color .2s ease-in-out;
+  -moz-transition: border-color .2s ease-in-out;
+  -webkit-transition: border-color .2s ease-in-out;
+  background: transparent;
+  width: 100%;
+  display: block;
+  line-height: 44px;
+  margin-bottom: 50px;
+}
+
+  .btn-email:hover {
+    border: 1px solid #2F2E2E;
+    color: inherit;
+  }
+
+.login-info-text {
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+  .login-info-text a {
+    text-decoration: none;
+    color: #687B8A;
+  }
+
+.input-setting {
+  border: 0;
+  border-bottom: 1px solid rgba(160, 160, 159, 1);
+  outline: 0;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.input-login {
+  padding: 0;
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 24px;
+  font-weight: 300;
+  cursor: pointer;
+  outline: 0;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  opacity: 1;
+  position: relative;
+}
+
+.btn-email-2 {
+  margin: auto auto 10px;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none !important;
+  height: 48px;
+  width: 100%;
+  border: 1px solid rgba(160, 160, 159, 1);
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 1px;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  background: transparent;
+  width: 100%;
+  display: block;
+  line-height: 44px;
+  margin-bottom: 20px;
+  background-color: rgba(104, 123, 138, 1);
+  border-radius: 1px;
+}
+
+  .btn-email-2:hover {
+    background-color: rgba(104, 123, 138, 1);
+    opacity: .8;
+  }

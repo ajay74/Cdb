@@ -16,3 +16,12 @@ C:\Users\aprescott\Documents\GitHub\Cdb\Data\bin\Debug\netcoreapp2.1\Courby.Data
 C:\Users\aprescott\Documents\GitHub\Cdb\Data\bin\Debug\netcoreapp2.1\Courby.Data.pdb
 C:\Users\aprescott\Documents\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Courby.Data.dll
 C:\Users\aprescott\Documents\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Courby.Data.pdb
+F:\Projects\GitHub\Cdb\Data\bin\Debug\netcoreapp2.1\Courby.Data.deps.json
+F:\Projects\GitHub\Cdb\Data\bin\Debug\netcoreapp2.1\Courby.Data.dll
+F:\Projects\GitHub\Cdb\Data\bin\Debug\netcoreapp2.1\Courby.Data.pdb
+F:\Projects\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
+F:\Projects\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+F:\Projects\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+F:\Projects\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
+F:\Projects\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Courby.Data.dll
+F:\Projects\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Courby.Data.pdb
