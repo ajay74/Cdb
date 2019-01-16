@@ -1,2 +1,4 @@
-
+*.dll
 TestApp3/
+*.pdb
+.suo
