@@ -5,3 +5,5 @@ TestApp3/
 *.dll
 *.pdb
 *.cache
+.vs/Cdb/v15/.suo
+*.ide-wal
