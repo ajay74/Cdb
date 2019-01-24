@@ -13,3 +13,7 @@ TestApp3/
 .vs/Cdb/v15/.suo
 .vs/Cdb/v15/Server/sqlite3/storage.ide-wal
 *.ide-wal
+*.ide
+*.ide-wal
+.vs/Cdb/v15/Server/sqlite3/storage.ide
+.vs/Cdb/v15/Server/sqlite3/storage.ide-wal
