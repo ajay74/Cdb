@@ -54,22 +54,29 @@ namespace Courby.Core.Data
                 new Connection.ParamData() { name = "@lastName", value = Encryption.Encrypt(lastName,password) },
                 new Connection.ParamData() { name = "@dob", value = dateOfBirth }
                 );
+
         // Confirm Email
         public static int ConfirmEmail(Guid userId, string emailAddress) =>  Connection.ExecuteProcedureNonQuery("UserValidateEmail",
                 new Connection.ParamData() { name = "@userId", value = userId },
-                new Connection.ParamData() { name = "@emailAddress", value = emailAddress });
+                new Connection.ParamData() { name = "@emailAddress", value = Encryption.Encrypt(emailAddress, USERSKEY) });
 
         // Delete User
         // Get User
-        public static DataStream GetUser(string emailAddress)
-        {
-            return Connection.ExecuteProcedureDataSet("UserGetBase", new Connection.ParamData() { name = "@emailAddress", value = Encryption.Encrypt(emailAddress, USERSKEY) });
-        }
+        public static DataStream GetUser(string emailAddress) =>
+            Connection.ExecuteProcedureDataSet("UserGetBase", 
+                new Connection.ParamData() { name = "@emailAddress", value = Encryption.Encrypt(emailAddress, USERSKEY) });
+       
 
         // Change user details.
         public static int ChangeEmailPassword(Guid userId, string newEmail, string oldEmail, string newPassword, string oldPassword)
         {
             return -1;
         }
+
+        //LoginUser
+        public static int Login(string emailAddress, string password) =>
+            Connection.ExecuteProcedureNonQuery("UserLogin",
+                new Connection.ParamData() { name = "@username", value = Encryption.Encrypt(emailAddress, USERSKEY) },
+                new Connection.ParamData() { name = "@password", value = Encryption.Encrypt(password, emailAddress) });
     }
 }

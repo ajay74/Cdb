@@ -24,3 +24,4 @@ C:\Users\aprescott\Documents\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Data.Assemb
 C:\Users\aprescott\Documents\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
 C:\Users\aprescott\Documents\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Courby.Data.dll
 C:\Users\aprescott\Documents\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Courby.Data.pdb
+C:\Users\aprescott\Documents\GitHub\Cdb\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache

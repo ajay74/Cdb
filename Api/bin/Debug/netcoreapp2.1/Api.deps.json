@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "abe95fc259f65e7ae6a253c82ff852050edd7f87"
+    "signature": "18d9d8bcdfeef06aaa01bb9b5cf117124a19130a"
   },
   "compilationOptions": {
     "defines": [
@@ -76,44 +76,41 @@
           "lib/netstandard1.3/Microsoft.CodeAnalysis.Workspaces.dll": {}
         }
       },
-      "Microsoft.IdentityModel.JsonWebTokens/5.2.4": {
+      "Microsoft.IdentityModel.JsonWebTokens/5.3.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "5.2.4",
-          "NETStandard.Library": "2.0.3",
+          "Microsoft.IdentityModel.Tokens": "5.3.0",
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
-          "lib/netstandard1.4/Microsoft.IdentityModel.JsonWebTokens.dll": {
-            "assemblyVersion": "5.2.4.0",
-            "fileVersion": "5.2.4.50619"
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
           }
         },
         "compile": {
-          "lib/netstandard1.4/Microsoft.IdentityModel.JsonWebTokens.dll": {}
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Logging/5.2.4": {
+      "Microsoft.IdentityModel.Logging/5.3.0": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
           "System.Diagnostics.Tracing": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.IO": "4.3.0",
           "System.IO.FileSystem": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll": {
-            "assemblyVersion": "5.2.4.0",
-            "fileVersion": "5.2.4.50619"
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
           }
         },
         "compile": {
-          "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll": {}
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Tokens/5.2.4": {
+      "Microsoft.IdentityModel.Tokens/5.3.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.2.4",
-          "NETStandard.Library": "2.0.3",
+          "Microsoft.IdentityModel.Logging": "5.3.0",
           "Newtonsoft.Json": "11.0.2",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Tools": "4.3.0",
@@ -130,13 +127,13 @@
           "System.Threading": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll": {
-            "assemblyVersion": "5.2.4.0",
-            "fileVersion": "5.2.4.50619"
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
           }
         },
         "compile": {
-          "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll": {}
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.1.0": {
@@ -582,21 +579,20 @@
           "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         }
       },
-      "System.IdentityModel.Tokens.Jwt/5.2.4": {
+      "System.IdentityModel.Tokens.Jwt/5.3.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "5.2.4",
-          "Microsoft.IdentityModel.Tokens": "5.2.4",
-          "NETStandard.Library": "2.0.3",
+          "Microsoft.IdentityModel.JsonWebTokens": "5.3.0",
+          "Microsoft.IdentityModel.Tokens": "5.3.0",
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
-          "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.dll": {
-            "assemblyVersion": "5.2.4.0",
-            "fileVersion": "5.2.4.50619"
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
           }
         },
         "compile": {
-          "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.dll": {}
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
         }
       },
       "System.Linq.Parallel/4.3.0": {
@@ -785,7 +781,7 @@
       },
       "Courby.Security/1.0.0": {
         "dependencies": {
-          "System.IdentityModel.Tokens.Jwt": "5.2.4"
+          "System.IdentityModel.Tokens.Jwt": "5.3.0"
         },
         "runtime": {
           "Courby.Security.dll": {}
@@ -1117,7 +1113,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication": "2.1.1",
           "Microsoft.IdentityModel.Protocols.WsFederation": "5.2.0",
-          "System.IdentityModel.Tokens.Jwt": "5.2.4"
+          "System.IdentityModel.Tokens.Jwt": "5.3.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.WsFederation.dll": {}
@@ -2584,8 +2580,8 @@
       },
       "Microsoft.IdentityModel.Protocols/5.2.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.2.4",
-          "Microsoft.IdentityModel.Tokens": "5.2.4",
+          "Microsoft.IdentityModel.Logging": "5.3.0",
+          "Microsoft.IdentityModel.Tokens": "5.3.0",
           "NETStandard.Library": "2.0.3",
           "System.Collections.Specialized": "4.3.0",
           "System.Diagnostics.Contracts": "4.3.0",
@@ -2602,7 +2598,7 @@
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "11.0.2",
           "System.Dynamic.Runtime": "4.3.0",
-          "System.IdentityModel.Tokens.Jwt": "5.2.4"
+          "System.IdentityModel.Tokens.Jwt": "5.3.0"
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
@@ -2624,7 +2620,7 @@
       },
       "Microsoft.IdentityModel.Tokens.Saml/5.2.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "5.2.4",
+          "Microsoft.IdentityModel.Tokens": "5.3.0",
           "Microsoft.IdentityModel.Xml": "5.2.0",
           "NETStandard.Library": "2.0.3"
         },
@@ -2635,7 +2631,7 @@
       },
       "Microsoft.IdentityModel.Xml/5.2.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "5.2.4",
+          "Microsoft.IdentityModel.Tokens": "5.3.0",
           "NETStandard.Library": "2.0.3"
         },
         "compile": {
@@ -3623,26 +3619,26 @@
       "path": "microsoft.codeanalysis.workspaces.common/2.8.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.2.8.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.JsonWebTokens/5.2.4": {
+    "Microsoft.IdentityModel.JsonWebTokens/5.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-494JCwsMINjjmrl/kOTdOtcsm3ESh8W16zg0b3nNJBgnpOu9eDgs8KDOtP3kRjSQtHcLrTsBI1XJ5FbhKm1TrA==",
-      "path": "microsoft.identitymodel.jsonwebtokens/5.2.4",
-      "hashPath": "microsoft.identitymodel.jsonwebtokens.5.2.4.nupkg.sha512"
+      "sha512": "sha512-GmiwCJPEe+V8+2GO3kD8K0IeqNHlTL0xZcHePIjyJveRn7OderxdT32aCZeJZEvz5w2Jlyag3zdyu1zkdTJo2A==",
+      "path": "microsoft.identitymodel.jsonwebtokens/5.3.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.5.3.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.Logging/5.2.4": {
+    "Microsoft.IdentityModel.Logging/5.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-12iZoCdMrwcQ8yOvg0AlG9oz6dIqvCczWsrHdALICsMWcBNFCAEyA0LELUYD0FZ7FVGvh4Z/KrPMkBVqVnIg2A==",
-      "path": "microsoft.identitymodel.logging/5.2.4",
-      "hashPath": "microsoft.identitymodel.logging.5.2.4.nupkg.sha512"
+      "sha512": "sha512-y2Hu8ypzoZbyxJiU2LQHkkCUjl5H1oAVapRbEQBbhrUe7hG2g8t+1Hb3NAhmM1SqStd71+rZR27TWv2mc6Isfw==",
+      "path": "microsoft.identitymodel.logging/5.3.0",
+      "hashPath": "microsoft.identitymodel.logging.5.3.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.Tokens/5.2.4": {
+    "Microsoft.IdentityModel.Tokens/5.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hVkEnZTnU23IQv5hsbBmlJgmr/NdDg1yU6QPSoVirbfK1z+sDSItzDpZuKDcLjE81v174BlChdezKfVOzpr2YA==",
-      "path": "microsoft.identitymodel.tokens/5.2.4",
-      "hashPath": "microsoft.identitymodel.tokens.5.2.4.nupkg.sha512"
+      "sha512": "sha512-g+JFqRJcMv8gRdyIgaloL9Rk8iLJLGdCuLVcg84/W5vfGq9WWHF9DHmcyxO7Ac1fdm2Q3PmY/nvUhsOhB3TwXA==",
+      "path": "microsoft.identitymodel.tokens/5.3.0",
+      "hashPath": "microsoft.identitymodel.tokens.5.3.0.nupkg.sha512"
     },
     "Microsoft.NETCore.App/2.1.0": {
       "type": "package",
@@ -3805,12 +3801,12 @@
       "path": "system.configuration.configurationmanager/4.5.0",
       "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
     },
-    "System.IdentityModel.Tokens.Jwt/5.2.4": {
+    "System.IdentityModel.Tokens.Jwt/5.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IVIGJO1X8THAUfOIb3/KhPWALPOtXzpnP+36JBBM3BrQdnsE7kbi5m4Hpbax9JQVSdA5KG9cFeFoAtFOWfn90A==",
-      "path": "system.identitymodel.tokens.jwt/5.2.4",
-      "hashPath": "system.identitymodel.tokens.jwt.5.2.4.nupkg.sha512"
+      "sha512": "sha512-PZT7Vf5b3jlwFgQnTV93tKeoLQj/Qfo/tKWHZXCprUj2ZNeyPxp47IhwCqqFcuAtuTX5FOk3dRHk8gC+KjpmGA==",
+      "path": "system.identitymodel.tokens.jwt/5.3.0",
+      "hashPath": "system.identitymodel.tokens.jwt.5.3.0.nupkg.sha512"
     },
     "System.Linq.Parallel/4.3.0": {
       "type": "package",
