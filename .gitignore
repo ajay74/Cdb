@@ -17,3 +17,5 @@ TestApp3/
 *.ide-wal
 .vs/Cdb/v15/Server/sqlite3/storage.ide
 .vs/Cdb/v15/Server/sqlite3/storage.ide-wal
+.vs/Cdb/v15/.suo
+.vs/Cdb/v15/Server/sqlite3/storage.ide-wal

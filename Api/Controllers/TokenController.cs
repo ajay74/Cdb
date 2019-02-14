@@ -19,9 +19,8 @@ namespace Api.Controllers
         [AllowAnonymous]
         public string Get (string userName, string password)
         {
-            
 
-            
+            return "";
         }
     }
 }

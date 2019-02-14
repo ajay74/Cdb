@@ -30,7 +30,11 @@ namespace Api.Controllers
 
         public void LoginUser([FromBody]string email, [FromBody] string password)
         {
-            
+            if (Courby.Core.Data.User.Login(email, password)==1)
+            {
+                string s = Token.GenerateToken(email, 30);
+
+             }
         }
 
         [HttpGet("{id}", Name = "Get")]
