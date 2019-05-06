@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Courby</title>
+<meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--stylesheets-->  
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+<!--ends-->
+
+</head>
+<body>
+
+
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="200"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav col-12 col-lg-9">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Huren<span class="sr-only">(current)</span></a>
+              <ul class="dropdown-menu">
+                <li><a href="payment.html">Betailing</a>
+                </li>
+            </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Verhuren</a>
+            </li>  
+          </ul> 
+          <div class="ui-login-toolbar col-lg-3 col-12">
+              <ul class="float-right">
+                <li><a href="#">&nbsp;Aanmelden</a></li>
+                <li><a href="#" class="blue-br-btn">&nbsp;Inloggen</a></li>
+              </ul>
+            </div>
+        </div>
+        
+      </nav>
+</header>
+
+<main>
+<div class="container">
+    <div class="paymnt-wrapper" style="margin-top:65px;">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="header-title row">
+                    <div class="photo col-4 col-lg-2">
+                        <img src="images/atc.jpg"/>
+                    </div>
+                    <div class="title col-lg-10 col-8">
+                        <h4>ATC Kadoelen</h4>
+                        <p>Sportpark Kadoelen 4, 1035 NB Amsterdam</p>
+                    </div>
+                </div>
+
+                <div class="paymnt-form">
+                    
+                        <div class="form-group">
+                            <h4>Verzoek aan de sportclub</h4><br/>
+                            <textarea id="paymnt" rows="5" cols="" class="form-control"></textarea>
+                        </div>
+                    
+                </div>
+                <div class="paymnt-desc">
+                    <h4>Betaalmethode</h4>
+                    <p>Kies hieronder de gewenste betaalmethode. Indien u kiest voor Ideal of Paypal, wordt u doorverwezen naar de bijbehorende betalingspagina's. Na de betaling wordt u teruggestuurd naar Courby waar u uw reservering bevestigd zult zien.</p>
+                </div>
+
+                <div class="paymnt-radio-form">
+                    <input type="radio" />&nbsp;<label>Ideal</label> <span class="payment-logo"><img src="images/ideal.png" width="35"/></span><br/>
+                    <input type="radio" />&nbsp;<label>Paypal</label> <span><img src="images/paypal_PNG22.png" width="35"/></span><br/>
+                    <input type="radio" />&nbsp;<label>Credit Card</label> <span><img src="images/mastercard.png" width="45"/>
+                        <img src="images/visa_PNG3.png" width="45"/>&nbsp;
+                        <img src="images/Maestro_logo.png" width="45"/></span><br/>
+                    <input type="radio" />&nbsp;<label>Bankoverschrijving (vooruitbetalen)</label><br/>
+                    <br/>
+                    <div class="custom-select1 pos-rel" style="width:200px;">
+                        <select>
+                          <option value="0">Naam van uw bank</option>
+                          <option value="1">Audi</option>
+                          <option value="2">BMW</option>
+                          <option value="3">Citroen</option>
+                          <option value="4">Ford</option>                                  
+                        </select>
+                </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="reservation-form">
+                    <div class="edit"><i class="fa fa-pencil"></i></div>
+                   <h4>Mijn reservering</h4>
+                   <div class="info">
+                       <div class="col-12">
+                            <p><i class="fa fa-map-marker"></i>&nbsp;Tennisbaan - Gravel</p>
+                       </div>
+                       
+                        <div class="col-12">
+                            <div class="form-group">
+                                <input type="date" class="form-control"/>
+
+                            </div>
+                            <div class="form-group">
+                                    <input type="time" class="form-control"/>    
+                                </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Huurprijs</p>
+                                    <p><strong>Totaal</strong></p>
+                                </div>
+                                <div class="col-6">
+                                    <p>€ 25,00 x 60 min</p>
+                                    <p><strong>€ 25,00</strong></p>
+                                    </div>
+                            </div>
+                            <div>
+                                <button class="btn btn-green w-100">
+                                    asas
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                <div class="cancel-condition">
+                    <h4>Annuleringsvoorwaarden:</h4>
+                    <p>
+                            U kunt tot 24 uur van te voren
+                            gratis annuleren</p>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+  
+</main>
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 social-media text-center pad-10">
+                <div class="float-right">
+                        <div class="marg-top-ten">
+                        <div class="follow"> Follow Us On:</div>
+                        <span><i class="fa fa-facebook"></i></span>
+                        <span><i class="fa fa-linkedin"></i></span>
+                        <span><i class="fa fa-instagram"></i></span>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="col-12 col-lg-6 footer-sel-box">
+                <div class="float-left">
+                        <select class="form-control select-round">
+                                <option>Netherlands</option>
+                        </select>
+                </div>
+            
+            </div>
+        </div>
+        <div class="row copyright" style="margin-top:12px;">
+            <div class="col-6">
+                &copy; Copyright 2019 Courby
+            </div>
+            <div class="col-6">
+                <span class="float-right">Privacy Policy | Terms & Condtions</span>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+<script src="js/slick.js" type="text/javascript"></script>
+
+   
+</body>
+</html>
